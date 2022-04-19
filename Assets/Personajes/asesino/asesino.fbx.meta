@@ -15,7 +15,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'RightLowerLeg' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -23,7 +24,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -77,7 +78,167 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: asesino(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder70
+      parentName: asesino(Clone)
+      position: {x: -0.30664432, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 7.793608, y: 0.5235214, z: 7.793608}
+    - name: transform245
+      parentName: pCylinder70
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder71
+      parentName: asesino(Clone)
+      position: {x: -0.30624765, y: 0.0069860183, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 4.3801312, y: 0.44464225, z: 4.3801312}
+    - name: transform246
+      parentName: pCylinder71
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder72
+      parentName: asesino(Clone)
+      position: {x: -0.3396254, y: 2.7095096, z: -0.000000006968029}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.2612425, y: 1.2612425, z: 1.2612425}
+    - name: polySurface196
+      parentName: pCylinder72
+      position: {x: 0.00039661519, y: -0.009591657, z: -1.8452845e-10}
+      rotation: {x: 0.000000015205657, y: -7.6028267e-10, z: -0.6516853, w: 0.75848943}
+      scale: {x: 1.1748648, y: 1, z: 1.1748648}
+    - name: transform248
+      parentName: polySurface196
+      position: {x: 0.30624765, y: -0.0069860183, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface197 1
+      parentName: pCylinder72
+      position: {x: 0.0000000011305799, y: -4.0487574e-10, z: -1.8452845e-10}
+      rotation: {x: -0.000000012944093, y: -0, z: 0.55493885, w: 0.83189124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform249
+      parentName: polySurface197 1
+      position: {x: 0.30664426, y: -0.014859516, z: 0.000000007152557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform247
+      parentName: pCylinder72
+      position: {x: 0.30664426, y: -0.014859516, z: 0.000000006968029}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder73
+      parentName: asesino(Clone)
+      position: {x: -0.28945723, y: 2.1870039, z: 0}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 4.5601883, z: 1}
+    - name: transform317
+      parentName: pCylinder73
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder75
+      parentName: asesino(Clone)
+      position: {x: -0.33957496, y: 2.5388722, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 3.9601912, y: 3.9601912, z: 3.9601912}
+    - name: transform323
+      parentName: pCylinder75
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere83
+      parentName: asesino(Clone)
+      position: {x: -0.33907905, y: 2.6347785, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 7.646737, y: 7.646737, z: 7.646737}
+    - name: transform316
+      parentName: pSphere83
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere84
+      parentName: asesino(Clone)
+      position: {x: -0.2100122, y: 2.5211666, z: -0.0000000017881393}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1.4305822, y: 1.4305822, z: 1.4305822}
+    - name: transform318
+      parentName: pSphere84
+      position: {x: -0.3529698, y: -0.007335744, z: 0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere85
+      parentName: asesino(Clone)
+      position: {x: -0.3371273, y: 2.6141937, z: -0.018697662}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform321
+      parentName: pSphere85
+      position: {x: -0.24585135, y: -0.41090447, z: 0.018697662}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder76
+      parentName: asesino(Clone)
+      position: {x: -0.38491902, y: 2.1870039, z: 0}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 4.5601883, z: 1}
+    - name: transform314
+      parentName: pCylinder76
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere86
+      parentName: asesino(Clone)
+      position: {x: -0.33900097, y: 2.2726374, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 9.493803, y: 6.2749543, z: 9.493803}
+    - name: transform320
+      parentName: pSphere86
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere87
+      parentName: asesino(Clone)
+      position: {x: -0.4722277, y: 2.5211666, z: -0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1.4305822, y: 1.4305822, z: 1.4305822}
+    - name: transform322
+      parentName: pSphere87
+      position: {x: -0.3529698, y: -0.007335744, z: 0.0000000017881393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere88
+      parentName: asesino(Clone)
+      position: {x: -0.33900097, y: 2.2726374, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 9.766291, y: 6.455056, z: 9.766291}
+    - name: transform315
+      parentName: pSphere88
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface197
+      parentName: asesino(Clone)
+      position: {x: -0.3396254, y: 2.7114007, z: -0.000000007200764}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform319
+      parentName: polySurface197
+      position: {x: 0.3396254, y: -2.7114007, z: 0.000000007200764}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder79
+      parentName: asesino(Clone)
+      position: {x: -0.34111995, y: 2.4289856, z: -0.000000009536743}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -88,13 +249,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 

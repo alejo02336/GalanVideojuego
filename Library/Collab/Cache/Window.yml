@@ -14,11 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Scenes/SampleScene.unity
-    - Assets/Tools/3DTargetCursor/Materials/FeedbackPointerColor.mat
-    - Assets/Tools/3DTargetCursor/Prefabs/FeedbackPointer.prefab
+    - ProjectSettings/ProjectVersion.txt
     - 
-    m_Values: 00000000
+    m_Values: 0000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
